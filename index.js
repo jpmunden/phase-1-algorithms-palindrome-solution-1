@@ -1,5 +1,9 @@
-function isPalindrome(word) {
+function isPalindrome(string) {
   // Write your algorithm here
+  let splitString = string.split('')
+    let reverseArray = splitString.reverse()
+    let joinArray = reverseArray.join('')
+    return joinArray === string
 }
 
 /* 
